@@ -15,7 +15,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/Theme.TicTacToe.SplashScreen">
+            android:theme="@style/Theme.TicTacToe">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
