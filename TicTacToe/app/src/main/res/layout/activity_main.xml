@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Turn"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+        <Button
+            android:onClick="click"
+            android:id="@+id/btn1"
+            android:backgroundTint="@color/teal_700"
+            android:textSize="40sp"
+            android:height="80dp"
+            android:layout_marginRight="12dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn2"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"
+            android:layout_marginRight="12dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn3"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn4"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn5"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn6"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn7"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn8"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+        <Button
+            android:onClick="click"
+            android:textSize="40sp"
+            android:id="@+id/btn9"
+            android:backgroundTint="@color/teal_700"
+            android:height="80dp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="RESET"
+        android:textSize="20sp"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>
